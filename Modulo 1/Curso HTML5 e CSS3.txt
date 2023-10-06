@@ -1,0 +1,22 @@
+Modulo 1
+
+
+Endereço do material: github.com/gustavoguanabara
+                      gustavoguanabara.guithub.io
+
+Capitolo 1 aula 4:
+
+a Internet veio da ARPANET, rede criada para proteção Militar, nos Estados Unidos.
+
+Sugestão de vídeo: Canal Vox, Glad you ask link: https://youtu.be/TNQsmPf24go
+
+A internet iniciou com protocolo Gopher, somente texto preto e verde(ou branco), sem imagens.
+
+em 1993 Tim Berners-Lee, em Genebra, criou o Protocolo "http://", "HTML" e "WWW" que engloba todos os servidores da subrede "http"
+
+
+Capitulo 2 aula 2:
+
+Domínio: é o nome que identifica seu site (nome único)
+
+Hospedagem: local onde seu site vai estar armazenado

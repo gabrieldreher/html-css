@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos ospedados localmente</h1>
+    <p>Este vídeo esta hospedado no meu próprio servidor.</p>
+    <video width="540" poster="imagem/Tartaruga.png" controls autoplay loop>
+        <source src="midia/meu-video-edit.mp4" type="video/mp4">
+        <source src="midia/Meu-Video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a&byline=0" width="540" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

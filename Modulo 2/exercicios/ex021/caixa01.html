@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: #c4c4bb;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: #666661;
+
+            border: 10px solid #666661; /*   <-- Shorthand */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            padding: 10px 10px 10px 10px; /* ou apenas padding: 10px;  <-- Shorthand */
+
+            margin-top: 10px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+
+            margin: 10px auto 10px auto; /* ou apenas margin: 10px;  <-- Shorthand */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: #888881;
+
+            outline: 5px dashed #888881; /*   <-- Shorthand */
+
+        }
+
+        h1:hover{
+            background-color: aqua;
+            border-color: aliceblue;
+            outline-color: black;
+        }
+
+        a{
+            border-width: 10px;
+            border-style: ridge;
+            border-color: red;
+            text-decoration: none;
+        }
+
+        a:hover{
+            border-style: groove;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa Box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">Links são exemplo de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

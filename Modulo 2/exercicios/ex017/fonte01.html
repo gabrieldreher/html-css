@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            16px geralmente = 1em
+
+            Medidas Relativas
+            em. ex, rem, vw, vh,%
+            */
+            font-size: 16px;
+        }
+
+        h1 {
+            /*Shorthand font
+
+            Ao invés de usar isso:
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: sans-serif;
+
+            usamos isso:
+            - font-style -> font-weight -> font size -> font-family*/
+            font: italic bolder 3em sans-serif;
+        }
+
+        h2 {
+            font: bold 2em sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis possimus quasi, assumenda deleniti natus odit deserunt quam culpa repellendus maiores dolorum impedit enim nulla obcaecati! Saepe quam nobis voluptates placeat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo id deserunt iusto autem earum natus laudantium qui rerum! Dolorum accusantium magni ullam. At, modi dolore! Porro maiores ducimus obcaecati excepturi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sit eius quis accusantium dicta porro error quod? Reiciendis, nulla odit non eum aliquid perferendis, ad illo recusandae, quae exercitationem architecto!</p>
+        <h2>Subtítulo do exercício</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eum, dicta harum numquam quidem enim. Dignissimos tempore molestias, deleniti, voluptates voluptatem libero est, officiis temporibus modi facilis magnam quaerat error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis cum ab ducimus reiciendis ipsum excepturi ea molestiae voluptates iure, adipisci odio, blanditiis possimus quam quae! Aliquid ipsa accusamus eum.</p>
+</body>
+</html>

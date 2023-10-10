@@ -4,4 +4,5 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
-<a href="https://gabrieldreher.github.io/html-css/Modulo 2/desafios/des010/Pacote projeto/android.html" target="_blank">Executar o primeiro site do desafio n°10</a>
+<p><a href="https://gabrieldreher.github.io/projeto-android/" target="_blank">Executar o primeiro site do desafio n°10</a></p>
+<p></p><a href="https://gabrieldreher.github.io/projeto-android-2.0/" target="_blank">Executar o primeiro site atualizado do desafio n°10</a></p>

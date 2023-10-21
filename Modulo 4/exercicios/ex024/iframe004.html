@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    <h1>Meu site Principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae id numquam quod corrupti consequuntur ab dignissimos animi blanditiis nesciunt accusantium illo reprehenderit laboriosam nulla repudiandae, eos, aperiam, suscipit facilis rerum.</p>
+
+
+    <!-- Segurança do iframe
+        sandbox="sandbox": todas as proteções ativas
+
+        sandbox="allow-same-origin": permite cadastro no mesmo servidor de origem
+        
+        sandbox="allow-forms": permite formulários
+
+        sandbox="allow-scripts": permite scripts
+
+        referrerpolicy="no-referrer": impede captura de dados
+    -->
+    <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        Seu navegador não é compatível com isso
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia quaerat quibusdam, facilis officiis inventore soluta tempore repellat cupiditate sunt, quas fuga doloremque atque eveniet tenetur iure ex asperiores natus ut.</p>
+</body>
+</html>

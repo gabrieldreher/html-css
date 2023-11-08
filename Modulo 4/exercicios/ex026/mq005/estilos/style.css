@@ -42,8 +42,8 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: var(--cor0);
-    color: var(--cor2);
+    background-color: var(--cor3);
+    color: var(--cor0);
 }
 
 menu {
@@ -87,4 +87,21 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
     color: rgb(39, 39, 39);
+}
+
+footer {
+    background-color: var(--cor5);
+    margin-top: 10px;
+    color: var(--cor0);
+    padding: 15px;
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+footer > p > a:hover {
+    color: var(--cor2);
 }

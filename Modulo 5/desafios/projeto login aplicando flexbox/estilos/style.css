@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+/* Paleta de cores 
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #8DC6F1;
+    --cor2: #5f2c82;
+    --cor3: #000000;
+    --cor4: #74a3c7;
+    --cor5: #9243c7;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: var(--cor2);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    background-color: var(--cor0);
+    width: 250px;
+    height: 515px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+section#login > article#imagem {
+    display: block;
+    background: var(--cor2) url(../imagens/predio-degrade.jpg) no-repeat;
+    background-size: cover;
+    background-position: left center;
+    height: 200px;
+}
+
+section#login > article#formulario {
+    display: block;
+    padding: 10px;
+}
+
+article#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+article#formulario > p {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+}
+
+form > div.campomail {
+    border: 2px solid var(--cor5);
+    background-color: var(--cor5);
+    color: var(--cor0);
+    height: 42px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 5px 0px;
+}
+
+form > div.campopass {
+    border: 2px solid var(--cor5);
+    background-color: var(--cor5);
+    color: var(--cor0);
+    height: 42px;
+    margin: 5px 0px;
+}
+
+div > label {
+    display: none;
+}
+
+div > .material-symbols-outlined {
+    
+    width: 40px;
+    font-size: 2em;
+    padding: 5px;
+      
+}
+
+div.campomail > input {
+    background-color: var(--cor1);
+    font-size: 1em;
+    width: calc(100% - 45px);  
+    height: 95%;
+    border: 0px;
+    border-radius: 0px 10px 0px 0px;
+    padding: 2px;
+    transform: translateY(-12px);
+}
+
+div.campomail > input:focus-within {
+    background-color: var(--cor0);
+}
+
+div.campopass > input {
+    background-color: var(--cor1);
+    font-size: 1em;
+    width: calc(100% - 45px);  
+    height: 95%;
+    border: 0px;
+    padding: 2px;
+    transform: translateY(-12px);
+}
+
+div.campopass > input:focus-within {
+    background-color: var(--cor0);
+}
+
+
+form > a.botao > span {
+    vertical-align: middle;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border: none;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: var(--cor0);
+    color: var(--cor3);
+    border: 1px solid var(--cor2);
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: var(--cor5);
+    color: var(--cor0);
+}
+
+form > a.botao > span {
+    font-size: 0.8em;
+    padding-top: 3px;
+}
